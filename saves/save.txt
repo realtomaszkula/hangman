@@ -1,0 +1,54 @@
+--- !ruby/object:Hangman
+secret_word: immolation
+letters:
+- i
+- m
+- m
+- o
+- l
+- a
+- t
+- i
+- o
+- n
+bool_pairs:
+- - i
+  - true
+- - m
+  - false
+- - m
+  - false
+- - o
+  - false
+- - l
+  - false
+- - a
+  - false
+- - t
+  - false
+- - i
+  - true
+- - o
+  - false
+- - n
+  - true
+hangman:
+- "\t\t\t___________"
+- "\t\t\t|         |"
+- "\t\t\t|         0 "
+- "\t\t\t|        /|\\  "
+- "\t\t\t|        / \\ "
+- "\t\t\t|            "
+- "\t\t\t|            "
+- "\t\t\t|            "
+- "\t\t\t|            "
+- "\t\t\t|            "
+mistake: 4
+turn: 0
+win: false
+missd_letters:
+- d
+- c
+- k
+- e
+turns_left: 6
